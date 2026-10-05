@@ -7,6 +7,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Identity-Governance-Administration-IGA/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Governance-Administration-IGA?style=flat-square&color=gold" alt="GitHub Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Identity-Governance-Administration-IGA/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-Governance-Administration-IGA?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Identity-Governance-Administration-IGA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Identity-Governance-Administration-IGA?style=flat-square&color=green" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ## 🚀 Overview & Ecosystem Guide
@@ -96,9 +97,26 @@ We welcome community contributions! To add a new platform or update existing det
 
 ---
 
+## 💖 Support & Community
+
+Thank you for exploring and using this repository! If you find this resource helpful for your identity governance research or enterprise architecture:
+
+- 🌟 **Star this repository** to show your appreciation and help others discover it.
+- 🔀 **Fork it** and submit pull requests to share new platforms or updates.
+- 📢 **Share** this list with fellow security architects, IAM engineers, and security teams.
+- ☕ **Sponsor / Buy me a coffee**: If you'd like to support the ongoing maintenance of this awesome list, consider sponsoring via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
 ## 📜 Disclaimer
 
 *This list is community-curated for informational and research purposes only. Identity Governance directly impacts organizational security posture and regulatory compliance. Always conduct formal procurement evaluations and vendor security assessments.*
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Identity-Governance-Administration-IGA&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Identity-Governance-Administration-IGA&type=date&legend=top-left)
 
 ---
 
