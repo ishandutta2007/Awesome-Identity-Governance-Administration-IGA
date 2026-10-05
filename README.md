@@ -4,7 +4,7 @@
 
 <p target="_blank" align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Identity-Governance-Administration-IGA/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Governance-Administration-IGA?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Governance-Administration-IGA/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Governance-Administration-IGA?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Identity-Governance-Administration-IGA/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-Governance-Administration-IGA?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Identity-Governance-Administration-IGA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Identity-Governance-Administration-IGA?style=flat-square&color=green" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -49,9 +49,9 @@ The table below lists key enterprise IGA SaaS vendors, sorted in **descending or
 
 Full-featured enterprise IGA (access certification campaigns, complex SoD engines, and hundreds of out-of-the-box connectors) is heavily dominated by commercial platforms. However, powerful open-source IAM, authorization engines, and governance components exist.
 
-The open-source options below are sorted in **descending order** by GitHub Star counts:
+The open-source options below are sorted in **descending order** by GitHub Stars_Counts:
 
-| Project 📦 | Star Count Badge 🌟 | Category / Focus 🎯 | Key Capabilities & Description 📝 |
+| Project 📦 | Stars_Count Badge 🌟 | Category / Focus 🎯 | Key Capabilities & Description 📝 |
 | :--- | :--- | :--- | :--- |
 | **[Keycloak](https://github.com/keycloak/keycloak)** | [<img src="https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white" alt="Keycloak Stars"/>](https://github.com/keycloak/keycloak/stargazers) | Open-Source IAM Platform | Industry-standard open-source identity and access management; handles user federation, fine-grained authorization policies, and SSO. |
 | **[Authentik](https://github.com/goauthentik/authentik)** | [<img src="https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white" alt="Authentik Stars"/>](https://github.com/goauthentik/authentik/stargazers) | Modern IdP & Governance Stack | Open-source identity provider focused on flexibility, custom Python policy engine, self-service user portal, and RBAC/ABAC enforcement. |
@@ -92,7 +92,7 @@ We welcome community contributions! To add a new platform or update existing det
 
 1. Fork this repository.
 2. Edit `README.md` following the tabular format and guidelines above.
-3. Ensure factual descriptions, official links, transparent pricing notes, and star counts.
+3. Ensure factual descriptions, official links, transparent pricing notes, and Stars_Counts.
 4. Open a Pull Request (PR) with a short description of your changes.
 
 ---
@@ -123,3 +123,12 @@ Thank you for exploring and using this repository! If you find this resource hel
 <p align="center">
   <b>Made with ❤️ for Identity Architects, Security Engineers, and Open Identity Advocates.</b>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Identity-Governance-Administration-IGA&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Identity-Governance-Administration-IGA_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Identity-Governance-Administration-IGA_growth.svg">
+  </picture>
+</a>
