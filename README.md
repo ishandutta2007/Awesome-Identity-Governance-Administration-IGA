@@ -1,6 +1,6 @@
 # Awesome-Identity-Governance-Administration-IGA
 
-# Top Identity Governance & Administration (IGA) Platforms Ecosystem
+## Top Identity Governance & Administration (IGA) Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Access Certification, Entitlement Management, Role Mining, Segregation of Duties, Identity Lifecycle & Compliance Governance*
 **Last updated: October 2026**
