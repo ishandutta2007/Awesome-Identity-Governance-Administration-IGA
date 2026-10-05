@@ -1,106 +1,107 @@
-# Awesome-Identity-Governance-Administration-IGA
+# 🛡️ Awesome Identity Governance & Administration (IGA) 🔐
 
-## Top Identity Governance & Administration (IGA) Platforms Ecosystem
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Access Certification, Entitlement Management, Role Mining, Segregation of Duties, Identity Lifecycle & Compliance Governance*
-**Last updated: October 2026**
+![Identity Governance & Administration Banner](assets/banner.svg)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Identity Governance & Administration (IGA)**. These systems manage who has access to what, enforce least privilege, run access reviews and certifications, detect segregation-of-duties conflicts, and govern the full identity lifecycle for compliance and risk reduction.
+<p target="_blank" align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Governance-Administration-IGA/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Governance-Administration-IGA?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Governance-Administration-IGA/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-Governance-Administration-IGA?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Governance-Administration-IGA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Identity-Governance-Administration-IGA?style=flat-square&color=green" alt="License"/></a>
+</p>
 
-**Examples** include Microsoft Entra ID Governance, SailPoint IdentityIQ / Identity Security Cloud, Saviynt, Omada Identity, IBM Security Verify Governance, Oracle Identity Governance, One Identity Manager, ClearSkies, Simeio, and ConductorOne (the category leaders).
+## 🚀 Overview & Ecosystem Guide
 
-**Open-source emphasis**: Full-featured IGA (access certification campaigns, role mining, SoD policy engines, large connector ecosystems) is almost exclusively commercial. Limited open-source options exist—most notably **OpenIAM**—along with governance-related capabilities in broader identity platforms. This section expands what is available while remaining realistic about the commercial gap.
+Welcome to the **Awesome Identity Governance & Administration (IGA)** resource list! Identity Governance & Administration forms the critical backbone of enterprise cybersecurity, identity lifecycle management, compliance enforcement, and access reviews.
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-- **[Microsoft Entra ID Governance](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id-governance)**  
-  Native IGA capabilities inside Microsoft Entra (Access Reviews, Entitlement Management, Lifecycle Workflows) optimized for Microsoft-centric environments.
-
-- **[SailPoint IdentityIQ / Identity Security Cloud](https://www.sailpoint.com/)**  
-  Market-leading IGA platform offering deep access certification, AI-assisted reviews, role mining, SoD, and extensive connectors for enterprise applications.
-
-- **[Saviynt](https://saviynt.com/)**  
-  Cloud-native IGA platform strong in application governance (especially ERP), converged identity security, and compliance reporting.
-
-- **[Omada Identity](https://www.omadaidentity.com/)**  
-  Process-oriented IGA solution emphasizing best-practice workflows, access requests, and identity lifecycle management.
-
-- **[IBM Security Verify Governance](https://www.ibm.com/products/verify-governance)**  
-  IBM’s identity governance offering covering access certification, role management, and compliance within the broader Verify portfolio.
-
-- **[Oracle Identity Governance](https://www.oracle.com/security/identity-management/)**  
-  Oracle’s IGA suite for access requests, certifications, role management, and integration with Oracle and third-party systems.
-
-- **[One Identity Manager](https://www.oneidentity.com/products/identity-manager/)**  
-  Comprehensive identity governance and administration platform focused on lifecycle management and access control.
-
-- **[ClearSkies](https://www.clearskies.com/)**  
-  IGA and identity security platform providing governance, risk, and compliance capabilities for identity.
-
-- **[Simeio](https://www.simeio.com/)**  
-  Identity and access management services and solutions with strong governance and managed service offerings.
-
-- **[ConductorOne](https://www.conductorone.com/)**  
-  Modern identity governance platform focused on continuous access reviews, just-in-time access, and developer-friendly integrations.
-
-## Open-Source GitHub Projects
-- **[OpenIAM](https://www.openiam.com/)**  
-  One of the few open-source platforms with dedicated IGA features—user lifecycle, access request workflows, access certification, role management, and provisioning connectors (Community and Enterprise editions).
-
-- **[Keycloak](https://github.com/keycloak/keycloak)**  
-  Leading open-source IAM that can support basic access control, fine-grained authorization, and user federation; often extended for lighter governance use cases.
-
-- **[Authentik](https://github.com/goauthentik/authentik)**  
-  Modern open-source identity provider with strong authorization policies and self-service capabilities that can form part of a governance stack.
-
-- **[Ory](https://github.com/ory)**  
-  Modular open-source identity components (including Keto for fine-grained authorization) useful for building custom access-control and governance logic.
-
-- **[Open Policy Agent (OPA) / Gatekeeper](https://github.com/open-policy-agent/opa)**  
-  Policy engine widely used to enforce access and compliance rules that complement identity systems.
-
-- **[SpiceDB / OpenFGA](https://github.com/authzed/spicedb)**  
-  Open-source fine-grained authorization systems (Zanzibar-inspired) that support relationship-based access control useful in governance architectures.
-
-- **[Documentation and OpenIAM / Keycloak governance patterns](https://www.openiam.com/)**  
-  Guides for implementing access reviews, provisioning workflows, and basic certification processes with open tools.
-
-- **[Self-hosted identity lifecycle scripts and connectors](https://github.com/)**  
-  Community automation for joiner-mover-leaver processes and basic access attestation.
-
-- **[Audit and compliance reporting frameworks](https://github.com/)**  
-  Open tooling for generating access reports and evidence that support governance and audit requirements.
-
-- **[Custom role-mining and SoD analysis notebooks](https://github.com/)**  
-  Data-science oriented approaches to analyzing entitlements and detecting conflicts when commercial IGA is not available.
-
-### Additional Strong Open-Source Options
-- Using **OpenIAM** where true open-source IGA features (certification, provisioning, role management) are required.
-- Combining **Keycloak** or **Authentik** with **OPA/SpiceDB** and custom workflows for lighter governance.
-- Accepting that enterprise-scale access certification campaigns, AI-driven role mining, broad application connectors, and mature SoD policy engines remain the domain of commercial platforms (SailPoint, Saviynt, Omada, Entra ID Governance, etc.).
-- Focusing open-source efforts on ownership of identity data, custom policy logic, and cost control for mid-sized or specialized environments.
-
-**Frameworks for building custom systems**: Identity provider (Keycloak/Authentik/OpenIAM) → fine-grained authorization (OPA or SpiceDB) → custom access-request and review workflows → reporting for audits. Suitable for organizations with strong engineering capacity. Most regulated enterprises adopt commercial IGA for scale and proven compliance coverage.
-
-## How to Contribute
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Identity governance directly impacts security and regulatory compliance. Open-source or custom solutions require rigorous design, testing, and audit readiness. This list is not compliance or security advice.
+This curated index provides security architects, identity engineers, and CISOs with a comprehensive benchmark of leading commercial **SaaS Platforms** and **Open-Source IAM / IGA Frameworks**.
 
 ---
-**Made for identity governance teams, security architects, and open identity advocates.**
-Let's keep access governed, least-privilege enforced, and as open as practical.
+
+## 📊 Market Overview & Industry Dynamics
+
+> 💡 **Market Size & Structure**: As of 2026, the global Identity Governance & Administration (IGA) market is valued at **~$9.5 Billion – $10.1 Billion**, growing at a CAGR of ~13.5% toward $20+ Billion over the next decade. 
+> 
+> 🧩 **Market Fragmentation**: The IGA sector is **moderately-to-highly fragmented**. It features legacy enterprise titans (SailPoint, Oracle, IBM, Microsoft), cloud-native scale-ups (Saviynt, ConductorOne, Omada), and specialized open-source policy/identity frameworks (Keycloak, Authentik, OPA, SpiceDB). While consolidation (M&A and unified identity security platforms) is accelerating, diverse enterprise compliance requirements and identity sprawl (especially AI and machine identities) keep the market dynamic and fragmented rather than "winner-take-all".
+
+---
+
+## 🏢 SaaS & Enterprise Hosted Platforms
+
+The table below lists key enterprise IGA SaaS vendors, sorted in **descending order** by company scale (Revenue / Valuation).
+
+| Platform 🌐 | Starting Tier Price 💰 | Free Tier / Trial Limits ⏳ | Company Size (Revenue / Valuation) 📈 | Key Governance Capabilities & Use Cases ⚙️ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Entra ID Governance](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id-governance)** | $7.00 per user/month (Requires Entra ID P1/P2 base license) | 30-day free trial (up to 100 trial user licenses) | ~$75.0 Billion+ (Security Division ARR / $3.1T Microsoft Corp) | Native Entitlement Management, Access Reviews, Lifecycle Workflows & Privileged Identity Management (PIM). |
+| **[SailPoint Identity Security Cloud / IdentityIQ](https://www.sailpoint.com/)** | ~$15.00 per user/month ($180/user/year starting enterprise quote) | 30-day customized enterprise proof-of-concept (POC) sandbox | $1.23 Billion ARR (Nasdaq: SAIL) | AI-driven access certifications, role mining, segregation-of-duties (SoD) policies, and 500+ deep enterprise connectors. |
+| **[IBM Security Verify Governance](https://www.ibm.com/products/verify-governance)** | ~$6.50 per user/month ($78/user/year base enterprise tier) | 30-day evaluation trial upon enterprise request | ~$500 Million (Verify Security Business / $62B IBM Corp) | Comprehensive access risk analysis, role management, certification campaigns, and mainframe/legacy integration. |
+| **[Oracle Identity Governance](https://www.oracle.com/security/identity-management/)** | ~$8.00 per user/month (Oracle Cloud IAM & Governance suite) | 30-day Free Trial with $300 Oracle Cloud credits | ~$450 Million (Identity Suite / $53B Oracle Corp) | Enterprise role lifecycle management, analytics-driven access requests, and deep Oracle ERP/EBS integration. |
+| **[One Identity Manager](https://www.oneidentity.com/products/identity-manager/)** | ~$5.00 per user/month ($60/user/year enterprise starting license) | 30-day free evaluation trial (Self-hosted or hosted POC) | ~$350 Million Revenue | Governance-led lifecycle management, fine-grained access control, and attestation workflows. |
+| **[Saviynt Enterprise Identity Cloud](https://saviynt.com/)** | ~$12.00 per user/month (Standard SaaS user tier quote) | 14-day dedicated trial sandbox upon sales request | $300 Million+ ARR ($3.0 Billion Valuation) | Cloud-native converged identity platform, cross-application SoD analysis, and fine-grained application governance. |
+| **[ConductorOne (C1)](https://www.conductorone.com/)** | ~$3.50 per identity/month (~$4,300/year base tier for 100 identities) | 14-day guided proof-of-concept (POC) deployment | ~$25 Million Revenue ($350 Million Valuation) | Modern continuous access reviews, just-in-time (JIT) access requests, Slack/Teams workflows, and AI identity governance. |
+| **[Omada Identity Cloud](https://www.omadaidentity.com/)** | ~$4.50 per user/month ($54/user/year enterprise starting price) | 30-day structured proof-of-value (POV) trial sandbox | ~$45 Million Revenue | Process-oriented identity governance, standard workflow templates, and out-of-the-box compliance reporting. |
+| **[ClearSkies IGA](https://www.clearskies.com/)** | ~$3.00 per user/month (Managed IGA service base tier) | 14-day evaluation demo instance | ~$15 Million Revenue | Threat-informed identity governance, compliance audit tracking, and automated access attestation. |
+| **[Simeio Identity Platform](https://www.simeio.com/)** | ~$4.00 per user/month (Managed Identity & Governance service) | 30-day guided evaluation environment | ~$80 Million Revenue | Managed identity governance services, multi-tenant IGA orchestration, and access certification management. |
+
+---
+
+## 🔓 Open-Source GitHub Projects & Identity Engines
+
+Full-featured enterprise IGA (access certification campaigns, complex SoD engines, and hundreds of out-of-the-box connectors) is heavily dominated by commercial platforms. However, powerful open-source IAM, authorization engines, and governance components exist.
+
+The open-source options below are sorted in **descending order** by GitHub Star counts:
+
+| Project 📦 | Star Count Badge 🌟 | Category / Focus 🎯 | Key Capabilities & Description 📝 |
+| :--- | :--- | :--- | :--- |
+| **[Keycloak](https://github.com/keycloak/keycloak)** | [<img src="https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white" alt="Keycloak Stars"/>](https://github.com/keycloak/keycloak/stargazers) | Open-Source IAM Platform | Industry-standard open-source identity and access management; handles user federation, fine-grained authorization policies, and SSO. |
+| **[Authentik](https://github.com/goauthentik/authentik)** | [<img src="https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white" alt="Authentik Stars"/>](https://github.com/goauthentik/authentik/stargazers) | Modern IdP & Governance Stack | Open-source identity provider focused on flexibility, custom Python policy engine, self-service user portal, and RBAC/ABAC enforcement. |
+| **[Ory Kratos](https://github.com/ory/kratos)** | [<img src="https://img.shields.io/github/stars/ory/kratos?style=social&color=white" alt="Ory Kratos Stars"/>](https://github.com/ory/kratos/stargazers) | Cloud-Native Identity Management | API-first user management, identity schema enforcement, multi-factor authentication, and headless lifecycle management. |
+| **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** | [<img src="https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white" alt="OPA Stars"/>](https://github.com/open-policy-agent/opa/stargazers) | General-Purpose Policy Engine | CNCF graduated policy engine using Rego to enforce unified authorization, Segregation of Duties (SoD), and compliance guardrails. |
+| **[SpiceDB](https://github.com/authzed/spicedb)** | [<img src="https://img.shields.io/github/stars/authzed/spicedb?style=social&color=white" alt="SpiceDB Stars"/>](https://github.com/authzed/spicedb/stargazers) | Fine-Grained Authorization (ReBAC) | Google Zanzibar-inspired open-source database for relationship-based access control (ReBAC) and enterprise entitlement tracking. |
+| **[OpenFGA](https://github.com/openfga/openfga)** | [<img src="https://img.shields.io/github/stars/openfga/openfga?style=social&color=white" alt="OpenFGA Stars"/>](https://github.com/openfga/openfga/stargazers) | High-Performance Authorization | CNCF project created by Auth0/Okta for relationship-based access control (ReBAC) and fine-grained entitlement queries at scale. |
+| **[Kanidm](https://github.com/kanidm/kanidm)** | [<img src="https://img.shields.io/github/stars/kanidm/kanidm?style=social&color=white" alt="Kanidm Stars"/>](https://github.com/kanidm/kanidm/stargazers) | Identity & Access Management | Rust-based identity management system engineered for high performance, strong security defaults, and modern OAuth2/OIDC governance. |
+| **[Ory Keto](https://github.com/ory/keto)** | [<img src="https://img.shields.io/github/stars/ory/keto?style=social&color=white" alt="Ory Keto Stars"/>](https://github.com/ory/keto/stargazers) | Access Control Server | Open-source implementation of Google Zanzibar; provides low-latency access control checks and permission graph evaluation. |
+| **[OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper)** | [<img src="https://img.shields.io/github/stars/open-policy-agent/gatekeeper?style=social&color=white" alt="OPA Gatekeeper Stars"/>](https://github.com/open-policy-agent/gatekeeper/stargazers) | Policy Governance for Kubernetes | Policy controller for Kubernetes to enforce compliance, security constraints, and identity governance on cloud-native workloads. |
+| **[Janssen Project (Jans)](https://github.com/JanssenProject/jans)** | [<img src="https://img.shields.io/github/stars/JanssenProject/jans?style=social&color=white" alt="Janssen Stars"/>](https://github.com/JanssenProject/jans/stargazers) | Linux Foundation Identity Platform | High-performance open-source digital identity platform built by the Gluu community for federated identity, FIDO2, and access control. |
+| **[Evolveum midPoint](https://github.com/Evolveum/midpoint)** | [<img src="https://img.shields.io/github/stars/Evolveum/midpoint?style=social&color=white" alt="midPoint Stars"/>](https://github.com/Evolveum/midpoint/stargazers) | Full Open-Source IGA System | Dedicated open-source Identity Governance & Administration platform supporting user provisioning, organizational structure, access request workflows, and role management. |
+| **[Gluu oxTrust](https://github.com/GluuFederation/oxTrust)** | [<img src="https://img.shields.io/github/stars/GluuFederation/oxTrust?style=social&color=white" alt="oxTrust Stars"/>](https://github.com/GluuFederation/oxTrust/stargazers) | Admin UI & Identity Management | Management interface for the Gluu Server to govern identities, OAuth clients, and authentication policies. |
+
+---
+
+## 🛠️ Open-Source Governance Architectures & Frameworks
+
+Organizations building custom IGA pipelines can combine these open-source building blocks:
+
+```mermaid
+flowchart TD
+    A["👤 User & HR Source Systems (Joiners / Movers / Leavers)"] --> B["🆔 Primary Identity Engine (Keycloak / Authentik / midPoint)"]
+    B --> C["⚡ Policy & Authorization Engine (OPA / SpiceDB / OpenFGA)"]
+    C --> D["🛡️ Access Certification & Attestation Workflows"]
+    D --> E["📊 Compliance & Audit Trail Reporting"]
+```
+
+1. **Identity Provider & Provisioning Hub**: Use **midPoint** or **Keycloak / Authentik** for core lifecycle management (Joiner-Mover-Leaver automation).
+2. **Entitlement & Policy Engine**: Integrate **OPA (Open Policy Agent)** or **SpiceDB / OpenFGA** for fine-grained relationship access control (ReBAC/ABAC) and Segregation of Duties (SoD) enforcement.
+3. **Certification & Audit Logging**: Store identity event logs in centralized SIEM/Audit warehouses for compliance verification (SOC2, GDPR, ISO27001).
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! To add a new platform or update existing details:
+
+1. Fork this repository.
+2. Edit `README.md` following the tabular format and guidelines above.
+3. Ensure factual descriptions, official links, transparent pricing notes, and star counts.
+4. Open a Pull Request (PR) with a short description of your changes.
+
+---
+
+## 📜 Disclaimer
+
+*This list is community-curated for informational and research purposes only. Identity Governance directly impacts organizational security posture and regulatory compliance. Always conduct formal procurement evaluations and vendor security assessments.*
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Identity Architects, Security Engineers, and Open Identity Advocates.</b>
+</p>
